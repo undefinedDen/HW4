@@ -17,7 +17,7 @@ public class Main {
         quantityProd = 7;
         totalCost = quantityProd * price;
         dayCost = totalCost / day;
-        System.out.printf("%n total sale for %d days is %s %.2f, " +
+        System.out.printf("%n total sales for %d days is %s %.2f, " +
                 "%n sales by day is %s %.2f. %n", day, CURRENCY, totalCost, CURRENCY, dayCost);
 
         System.out.print("Product #2: TV,");
